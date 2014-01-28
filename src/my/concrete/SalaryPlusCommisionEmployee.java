@@ -10,15 +10,15 @@ package my.concrete;
  *
  * @author Justin
  */
-public class SalariedEmployee extends Employee {
-    private double salary;
+public class SalaryPlusCommisionEmployee extends SalariedEmployee {
+    private double commission;
 
-    public double getSalary() {
-        return salary;
+    public double getCommission() {
+        return commission;
     }
 
-    public void setSalary(double salary) {
-        this.salary = salary;
+    public void setCommission(double commission) {
+        this.commission = commission;
     }
     
 }
